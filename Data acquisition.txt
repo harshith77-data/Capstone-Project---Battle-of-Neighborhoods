@@ -1,0 +1,11 @@
+2. Data Acquisition:
+For the analysis we need the following data:
+1. Bangalore Restaurants data that contains the details of locality, restaurant name, ratings along with their location details.
+Data Source: ZOMATO_KAGGLE_DATASET
+Data description: This data contains all the necessary information for our analysis. It consists of restaurants data from different countries including India, Sri Lanka, Brazil, Indonesia, New Zealand and USA. Each country has its own unique “Country Code”. For example “Country Code for India is 1”. Each country consists data of its cities popular restaurants. So for India there are total of 8652 restaurants from various cities of the country. Since our focus is on Bangalore city, we need to extract data particular to Bangalore city.
+The above data consists of following features Restaurant ID, Restaurant Name, Country Code, City, Address, Locality, Locality Verbose, Longitude, Latitude, Cuisines, Average cost for two, Currency, Has table Booking, Has online delivery, Is delivering now, Switch to order menu, Price range, Aggregate rating, Rating colour, Rating text, votes. 
+Among these features we need to select a suitable features for our analysis. Our feature selection is limited to Restaurant Name, Locality, Longitude, Latitude, Cuisines, Aggregate Rating, Rating Text, Votes.
+ 
+2. To get nearby places in each locality of Bangalore city:
+Data Source: FOURSQUARE.API
+Data description:  This API allows us to get information about all the venues in the neighbourhood of Bangalore City. For example to get the top venues near the neighbourhood of Bangalore like Kormangala, we can use the Foursquare Credentials to access the data.
