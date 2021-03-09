@@ -1,0 +1,8 @@
+2. Data Acquisition:
+For the analysis we need the following data:
+1. Bangalore Restaurants data that contains the details of locality, restaurant name, ratings along with their location details.
+•	Data Source: ZOMATO_KAGGLE_DATASET
+•	Data description: This data contains all the necessary information for our analysis.
+2. To get nearby places in each locality of Bangalore city:
+•	Data Source: FOURSQUARE.API
+•	Data description:  This API allows us to get information about all the venues in the neighbourhood
